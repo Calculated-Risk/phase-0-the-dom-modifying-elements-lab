@@ -1,8 +1,10 @@
 // Write your code here!
-main.remove();
+const main = document.querySelector('main')
+main.remove()
 
 const newHeader = document.createElement('h1');
 
-newHeader.id = 'victory';
 
-newHeader.textContent = 'Edwin is the champion';
+newHeader.setAttribute('id', 'victory');
+
+newHeader.textContent = 'Ed is the champion'
